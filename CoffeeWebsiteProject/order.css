@@ -1,0 +1,76 @@
+body {
+    background-image: url("order-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+        transition: .5s;
+        zoom: 75%;
+    margin: 0 25px;
+    font-family: Tahoma, sans-serif;
+    text-size-adjust: none;
+    color: #000;
+    }
+    
+    h2 {
+        font-weight: 400;
+        text-shadow: 1px 1px 2px gray;
+        text-align: center;
+    }
+    
+    ol li {
+        list-style-type: none;
+        margin: 5px;
+    }
+    
+    fieldset > legend {
+        color: #000000;
+        font-size: 1em;
+    }
+    
+    fieldset {
+        background: #68401f6b;
+        color: #000;
+        border: 2px solid rgba(0,0,0,0.09);
+        border-radius: 20px;
+    }    
+    
+    fieldset > fieldset {
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    
+    #crust label, #toppings label {
+        font-weight: normal !important;
+    }
+    .in {
+        padding: 5px;
+        border: 2px solid black;
+        border-radius: 5px;
+        outline: none;
+        transition: all 0.4s;
+        width: 90%;
+    }
+    
+    .in:focus {
+        border-color: rgb(127, 255, 77);
+    }
+    
+    .subres {
+        background: rgb(127, 255, 77);
+        padding: 10px;
+        font-size: 12pt;
+        color: #68401f;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px #ccc;
+        outline: none;
+    }
+    
+    select {
+        border: 1.55px solid rgb(127, 255, 77);
+        padding: 4px;
+        color: rgb(29, 70, 12);
+        background: transparent !important;
+        border-radius: 5px;
+        outline: none;
+    }

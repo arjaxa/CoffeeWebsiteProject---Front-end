@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width= device-width, initial-scale= 1.0, user-scalable = no" />
+        <link rel="stylesheet" href="order.css" />
+    </head>
+    <body>
+        <h2>Green Cafe | Online Order</h2>
+        <p>fill in the blanks carefully to place order.</p>
+            <fieldset>
+                <legend>Your Information</legend>
+                <ol>
+                    <li>
+                        <label for="form-login-name">Name:</label>
+                            <br />
+
+                            <input type="text" name="customername" class="in" id="form-login-name"/>
+
+                    </li>
+                    <li>
+                        <label for="form-login-addr">Address:</label>
+                            <br />
+
+                            <input type="text" name="address" class="in" id="form-login-addr"/>
+                    </li>
+                    <li>
+                        <label for="form-login-tel">Phone Number:</label>
+                            <br />
+
+                            <input type="tel" name="telephone" class="in" id="form-login-tel"/>
+
+                    </li>
+                    <li>
+                        <label for="form-login-email">Email:</label>
+                            <br />
+
+                            <input type="email" name="email" class="in" id="form-login-email"/>
+                    </li>
+                    <li>
+                        <label for="form-login-instr">Delivery Instructions:</label>
+                            <br />
+
+                            <textarea name="instructions" maxlength="400" rows="5" cols="30" placeholder="No more than 400 characters long..." class="in" id="form-login-instr"></textarea>
+                    </li>
+                </ol>
+            </fieldset>
+            <h3>Select items:</h3>
+            <fieldset>
+                <legend>Payment</legend>
+                <fieldset id="payment">
+                    <legend>choose your payment method:</legend>
+                    <ol>
+                        <li>
+                            <label><input type="radio" name="Payment" value="Credit Card" />
+Credit Card</label>
+                        </li>
+                        <li>
+                            <label><input type="radio" name="Payment" value="Cash" />
+Cash</label>
+                        </li>
+                        <li>
+                            <label><input type="radio" name="Payment" value="Online" />
+Online</label>
+                        </li>
+                    </ol>
+                </fieldset>
+                <fieldset id="products">
+                    <legend>Select items from products:</legend>
+                    <ol>
+                        <li>
+                            <label><input type="checkbox" name="products[]" checked="checked" />
+Chocolate Cake</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox" name="products[]" />
+Family Cake</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox" name="products[]" />
+Cupcake</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox" name="products[]" />
+Walnut Cookies</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox" name="products[]" />
+Cheescake</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox" name="products[]" />
+Basilio</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox" name="products[]" />
+Instant Coffee</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox" name="products[]" />
+Artisan</label>
+                        </li>
+                    </ol>
+                </fieldset>
+                <fieldset>
+                    <legend>Delivery hour</legend>
+                    <p>(PM)
+                        <select name="Delivery hour">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        
+                        </select>
+                    </p>
+                </fieldset>
+                <br>
+                <p>
+                    <input type="submit" value="Place order" class="subres"/>
+&nbsp;
+
+
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
